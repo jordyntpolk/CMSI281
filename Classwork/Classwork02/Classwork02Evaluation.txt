@@ -1,0 +1,38 @@
+
+Classwork02 Evaluation
+======================
+
+Nice job on this assignment, with a couple of comments:
+
+Your MyFileCopier.java seems to be a copy of your TargetFile.java.
+I can give you SOME credit for the work but not all....
+
+I'll give you the benefit of the doubt that you actually have a
+MyFileCopier.java file somewhere, but I can only give you 1/2 credit
+on that.
+
+Sorry.
+
+scores:
+=============================
+MyFileCopier.java
+   prompts user for filename  [1 pt]     0.5
+   calls Source constructor   [1 pt]     0.5
+   calls getter method        [1 pt]     0.5
+   calls Target constructor   [1 pt]     0.5
+Source.java
+   reads file completely      [1 pt]
+   has getter or returning    [1 pt]
+Target.java
+   writes file completely     [1 pt]
+file hdrs (3)                 [3 pt]
+no tabs                       [1 pt]
+indenting consistent          [1 pt]
+descriptive variable names    [1 pt]
+
+total possible points         13 points
+
+
+you got 11 out of 13 which is 84.62% which is a B.
+
+
