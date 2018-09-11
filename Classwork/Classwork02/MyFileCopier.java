@@ -1,26 +1,24 @@
 /** ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- *  File name     :  TargetFile.java
- *  Purpose       :  To copy the file
+ *  File name     :  MyFileCopier.java
+ *  Purpose       :  To copy read and copy a user inputted file
  *  @author       :  Jordyn Polk
  *  Date written  :  2018-09-07
- *  Description   :  Takes the string from the Source File and copies it
+ *  Description   :  Takes the file given by the user and copies
  *  Notes         :  None
  *  Warnings      :  None
  *  Exceptions    :  None
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
- package copiersupport;
+ import copiersupport.SourceFile;
+ import copiersupport.TargetFile;
+ import java.util.Scanner;
 
- import java.io.BufferedWriter;
- import java.io.IOException;
- import java.io.FileWriter;
-
- public class TargetFile{
-   public TargetFile(String uploadedFile, String newFile) {
-     try{
-       BufferedWriter bW = new BufferedWriter(new FileWriter(newFile));
-       bW.write(uploadedFile);
-     } catch(IOException ioe){
-       System.out.println("Could not find file:");
+ public class MyFileCopier{
+     public static void main(String args[]) {
+          System.out.println("Input the name of the file:");
+          Scanner userInput = new Scanner( System.in );
+          String fileInputName = userInput.nextLine();
+          SourceFile requestedFile = new SourceFile(fileInputName);
+          String content = requeestedFile.getContent();
+          TargetFile copiedFile = new TargetFile(content, fileInputName + ".copy");
      }
-   }
  }
