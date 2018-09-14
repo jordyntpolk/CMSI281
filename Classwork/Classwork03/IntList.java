@@ -2,7 +2,7 @@
  * File name  :  IntListInterface.java
  * Purpose    :  Practice with arrays
  * @author    :  BJ Johnson
- * @author    :
+ * @author    :  Jordyn Polk
  * Date       :  2018-09-13
  * Description:  
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
