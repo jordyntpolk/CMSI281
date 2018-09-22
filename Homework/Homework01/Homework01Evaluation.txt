@@ -1,0 +1,30 @@
+
+Homework01 Evaluation
+======================
+
+Nice job on this assignment, with a couple of comments:
+
+BEAUTIFUL work on this one.  Try to make sure your indenting
+is consistent - you have different spacing in the two files.
+Otherwise you code is very nice.  You could use a few more
+test cases; there were five required for "getMax()" and you
+only have one.
+
+Still, works as advertised!  Keep up the good work!
+
+scores:
+=============================
+HighArray.java
+	coding style                    [1 pt.]
+   getMax() exists                  [1 pt.]
+   noDups() exists                  [1 pt.]
+   compiles                         [1 pt.]
+HighArrayApp.java
+   coding style                     [1 pt.]
+   compiles                         [1 pt.]
+   min 5 new tests for getMax()     [0.2 pt.]
+   test[s] for noDups               [1 pt.]
+headers in both files               [2 pts.]
+
+
+you got 9.2 out of 10 which is 92% which is an A-minus
